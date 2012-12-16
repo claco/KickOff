@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+# -*- encoding: utf-8 mode: ruby -*-
+
+$:.unshift File.expand_path('../../lib', __FILE__)
+
+require 'kickoff/cli'
+
+Kickoff::CLI.new.run
